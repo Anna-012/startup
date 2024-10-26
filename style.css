@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+  
+    
+}
+
+
+
+body{
+  background: #000000;
+}
+    #header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 80px;
+      background: #FCAF02;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+      position: sticky;
+      top: 0;
+      left: 0;
+    }
+    
+    #navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #navbar li{
+      list-style: none;
+      padding: 0 20px;
+      position: relative;
+    } 
+    
+    #navbar li a{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600px;
+      color: #1a1a1a;
+      transition: 0.3s ease;
+    }
+    
+    #navbar li a:hover,
+    #navbar li a.active{
+      color:#088178;
+    }
+    
+    #navbar li a.active::after,
+    #navbar li a:hover::after{
+      content: "";
+      width: 30%;
+      height: 2px;
+      background: #088178;
+      position: absolute;
+      bottom: -4px;
+      left: 20px;
+    }
+
+    h1, p{
+      padding: 10px;
+    }
+
+    #paragraph{
+      color: #FFFFFF;
+    }
+
+    button{
+      padding: 5px;
+      height: 30px;
+      width: 120px;
+      font-weight: 800;
+      border-radius: 25px;
+      background: #FCAF02;
+      border: none;
+      margin: 20px;
+    }
+
+    .jeff{
+      height: 200px;
+      width: 200px;
+      float: right;
+    }
+
+    input{
+      height: 30px;
+      width:51%;
+      margin: 10px;
+      border-radius: 25px;
+      background-color: transparent;
+      border-color: #FCAF02;
+    }
+
+    input::placeholder{
+      padding: 20px;
+      color: #FCAF02;
+    }
+
+    #Heading2{
+      color: #FCAF02;
+    }
+
+    .place{
+      height: 30px;
+      width: 25%;
+    }
+
+   .Submit{
+    margin: 20px 0px 0px 350px;
+   }
+
+   table, th, td{
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+    color: #FCAF02;
+    font-size: 10px;
+    height: 100px;
+    width: 400px;
+    text-align: center
+   }; 
+
+   td{
+    border-bottom: none;
+   };
+
+   th{
+    height: 40px;
+   };
+
+   #foot{
+    background-color: #FCAF02;
+    color: #000000;
+   }
+
+   table{
+    text-align: center;
+    margin: 30px;
+    
+   };
+
+  
+   
